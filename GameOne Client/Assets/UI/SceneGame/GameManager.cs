@@ -9,7 +9,7 @@ using SimpleTeam.GameOne.GameInfo;
 
 namespace SimpleTeam.GameOne.Scene
 {
-    using GameID = UInt16;
+    using GameObjID = UInt16;
     class GameManager : MonoBehaviour
     {
         private MouseManager _mouse = new MouseManager();
@@ -37,7 +37,7 @@ namespace SimpleTeam.GameOne.Scene
 
             SimplusInfo info;
             {
-                GameID id = 124;
+                GameObjID id = 124;
                 Circle circle = new Circle(Vector2.zero, 50);
                 ISimplusHP hp = new SimplusHP(30);
                 IParty party = new Party(0);

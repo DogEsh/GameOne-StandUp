@@ -5,7 +5,7 @@ using System.Collections;
 
 namespace SimpleTeam.GameOne.GameInfo
 {
-    using GameID = UInt16;
+    using GameObjID = UInt16;
     public class LinkInfoList : ILinkInfoContainer
     {
 
@@ -33,7 +33,7 @@ namespace SimpleTeam.GameOne.GameInfo
             }
         }
 
-        public ISimplusLinkInfo GetObj(GameID ID)
+        public ISimplusLinkInfo GetObj(GameObjID ID)
         {
             return _container.GetObj(ID);
         }

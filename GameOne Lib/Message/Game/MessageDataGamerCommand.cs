@@ -23,5 +23,7 @@ namespace SimpleTeam.GameOne.Message
                 return (ParameterID)HelperParameterID.SceneGame;
             }
         }
+
+        
     }
 }
