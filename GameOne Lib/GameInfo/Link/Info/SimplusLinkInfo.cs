@@ -5,10 +5,10 @@ using System.Text;
 
 namespace SimpleTeam.GameOne.GameInfo
 {
-    using GameID = UInt16;
+    using GameObjID = UInt16;
     public class SimplusLinkInfo : ISimplusLinkInfo
     {
-        private GameID _id;
+        private GameObjID _id;
 
         private SimplusInfo _source;
         private SimplusInfo _destination;
@@ -84,7 +84,7 @@ namespace SimpleTeam.GameOne.GameInfo
             }
         }
 
-        public GameID ID
+        public GameObjID ID
         {
             get
             {

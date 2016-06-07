@@ -5,9 +5,9 @@ using System.Text;
 
 namespace SimpleTeam.GameOne.GameInfo
 {
-    using GameID = UInt16;
-    public interface IGameID
+    using GameObjID = UInt16;
+    public interface IGameObjID
     {
-        GameID ID { get; }
+        GameObjID ID { get; }
     }
 }

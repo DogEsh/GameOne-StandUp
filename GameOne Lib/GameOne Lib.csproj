@@ -61,7 +61,7 @@
     <Compile Include="Parameter\Scene\Menu\ParametersSceneMenu.cs" />
     <Compile Include="Parameter\HelperParameterID.cs" />
     <Compile Include="GameInfo\GameContainer\GameObjList.cs" />
-    <Compile Include="GameInfo\IGameID.cs" />
+    <Compile Include="GameInfo\IGameObjID.cs" />
     <Compile Include="GameInfo\GameContainer\IGameObjContainer.cs" />
     <Compile Include="GameInfo\Link\Container\ILinkInfoContainer.cs" />
     <Compile Include="GameInfo\Link\Container\LinkInfoList.cs" />

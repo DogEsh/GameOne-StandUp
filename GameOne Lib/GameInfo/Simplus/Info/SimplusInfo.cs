@@ -3,20 +3,20 @@ using UnityEngine;
 
 namespace SimpleTeam.GameOne.GameInfo
 {
-    using GameID = UInt16;
+    using GameObjID = UInt16;
     public class SimplusInfo : ISimplusInfo
     {
         private ILinkInfoContainer _links;
         private Circle _obj2D;
         private ISimplusHP _hp;
         private IParty _party;
-        private GameID _id;
+        private GameObjID _id;
         public IParty Party { get { return _party; } }
         public ISimplusHP HP { get { return _hp; } }
         public Circle Obj2D { get { return _obj2D; } }
         public ILinkInfoContainer Links { get { return _links; } }
 
-        public GameID ID
+        public GameObjID ID
         {
             get
             {
@@ -24,7 +24,7 @@ namespace SimpleTeam.GameOne.GameInfo
             }
         }
 
-        public SimplusInfo(GameID id, Circle circle, ISimplusHP hp, IParty party, ILinkInfoContainer links)
+        public SimplusInfo(GameObjID id, Circle circle, ISimplusHP hp, IParty party, ILinkInfoContainer links)
         {
             _id = id;
             _obj2D = circle;
