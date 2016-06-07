@@ -100,6 +100,7 @@
     <Compile Include="Assets\Scene\Game\GameManager.cs" />
     <Compile Include="Assets\Scene\Game\Handlerr\MessageHandlerGameMap.cs" />
     <Compile Include="Assets\Scene\Game\Handlerr\MessageHandlerGameState.cs" />
+    <Compile Include="Assets\Scene\Game\New\Simplus\ISimplus.cs" />
     <Compile Include="Assets\Scene\Game\New\SceneGameMap.cs" />
     <Compile Include="Assets\Scene\Game\SceneClientGame.cs" />
     <Compile Include="Assets\Scene\Game\SceneClientGameMessages.cs" />
