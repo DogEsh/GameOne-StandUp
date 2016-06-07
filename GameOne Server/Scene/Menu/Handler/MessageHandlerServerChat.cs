@@ -11,7 +11,7 @@ namespace SimpleTeam.GameOne.Scene
     using MessageID = Byte;
     class MessageHandlerServerChat : IMessageHandler
     {
-        public byte Type
+        public MessageID Type
         {
             get
             {

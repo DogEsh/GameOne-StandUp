@@ -10,7 +10,7 @@ namespace SimpleTeam.GameOne.Scene
     public class SceneClientGame : MonoBehaviour, ISceneGame
     {
         //ISceneScenario
-        private ISceneScenario _sceneScenario = new SceneScenario();
+        private ISceneScenario _sceneScenario;
 
         public IScenario GetScenario()
         {
@@ -18,7 +18,7 @@ namespace SimpleTeam.GameOne.Scene
         }
 
         //ISceneMessages
-        private ISceneMessages _sceneMessages = new SceneMessages();
+        private ISceneMessages _sceneMessages;
         public void SetMessage(IMessage message)
         {
             _sceneMessages.SetMessage(message);
@@ -26,7 +26,9 @@ namespace SimpleTeam.GameOne.Scene
 
         public void Start()
         {
-            //_sceneMessages.Add(Chat);
+            _sceneScenario = new SceneScenario();
+            _sceneMessages = new SceneClientGameMessages(_sceneScenario.GetScenario());
+
         }
 
        
