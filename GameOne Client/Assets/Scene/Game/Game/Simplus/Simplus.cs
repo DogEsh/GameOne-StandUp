@@ -16,8 +16,6 @@ namespace SimpleTeam.GameOne.Scene
 
         public GameMap _map;
 
-        
-
         //rm
         public GameObject LinkPrefab;
 
